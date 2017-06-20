@@ -3,7 +3,7 @@ Photo Localization Extension
 
 This extension allows to place on a map geotaggued photos uploaded by users.
 One scenario is to create a space dedicated to photo sharing. When a new photo is uploaded, gps data are read and the photo is placed on a map.
-![Map](https://raw.githubusercontent.com/exo-addons/photo-localization-extension/master/data/map.png)
+![Map](https://raw.githubusercontent.com/exo-addons/photo-localization/master/data/map.png)
 
 
 #How to install
