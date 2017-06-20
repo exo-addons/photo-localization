@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>photo-localization</artifactId>
+    <groupId>org.exoplatform.addons.photo-localization</groupId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <artifactId>photo-localization-service</artifactId>
+  <packaging>jar</packaging>
+  <name>Photo localization - services</name>
+  <description>eXo Platform - addons - Space management notification - services</description>
+  <dependencies>
+    <dependency>
+      <groupId>org.exoplatform.ws</groupId>
+      <artifactId>exo.ws.rest.core</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.exoplatform.jcr</groupId>
+      <artifactId>exo.jcr.component.core</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.exoplatform.jcr</groupId>
+      <artifactId>exo.jcr.component.ext</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.drewnoakes</groupId>
+      <artifactId>metadata-extractor</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.exoplatform.social</groupId>
+      <artifactId>social-component-core</artifactId>
+      <scope>provided</scope>
+    </dependency>
+      <dependency>
+          <groupId>org.exoplatform.ecms</groupId>
+          <artifactId>ecms-core-services</artifactId>
+        <scope>provided</scope>
+      </dependency>
+  </dependencies>
+</project>

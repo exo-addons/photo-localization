@@ -1,0 +1,6 @@
+{
+  "application":{
+    "org.exoplatform.addons.photolocalization":{}
+  },
+  "sourcepath":"/home/romain/exo/eXoProjects/photo-localization-extension/webapp/src/main/java"
+}

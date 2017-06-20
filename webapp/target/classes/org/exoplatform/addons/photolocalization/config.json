@@ -1,0 +1,18 @@
+{
+  "binding":{
+    "bindings":[{
+        "value":"org.exoplatform.addons.photolocalization.PhotoLocalizationService"
+      }]
+  },
+  "controller":{
+    "controllers":["org.exoplatform.addons.photolocalization.PhotoLocalization_"],
+    "default":null,
+    "error":null,
+    "escapeXML":null
+  },
+  "portlet":{},
+  "template":{
+    "package":"org.exoplatform.addons.photolocalization.templates",
+    "templates":["org.exoplatform.addons.photolocalization.templates.photoLocalization"]
+  }
+}
